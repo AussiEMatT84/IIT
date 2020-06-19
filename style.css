@@ -14,10 +14,10 @@ display:block;
 html, body {background: #003459; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 18px; color: #F1F0EA;}
 .clear {clear: both;}
 p {
-	font-size: 1em;
+	font-size: .8em;
 	line-height: 1.4em;
 	margin-bottom: 20px;
-	color: #AFD0D6;
+	color: #F1F0EA;
 }
 
 #profile {
@@ -40,6 +40,10 @@ p {
 	padding: 25px 35px;
 	border-bottom: 2px solid #5BC0BE;
 	background: #3A506B;
+}
+
+.picture {
+	border:none;
 }
 
 #mainArea {
@@ -79,8 +83,12 @@ section:last-child {
 	width: 22%;
 }
 
+.sectionTitles img {
+	border: 2px solid #003459;
+}
+
 .sectionTitles h1 {
-	font-size:1.6em;
+	font-size:1.4em;
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-style: oblique;
 	font-weight: bold;
@@ -93,10 +101,54 @@ section:last-child {
 	padding-bottom: 20px;
 }
 
+.keySkills {
+	list-style-type: square;
+	-moz-column-count:2;
+	-webkit-column-count:2;
+	column-count:2;
+	font-size: .8em;
+	color: #003459;
+}
+
+.sectionContent h2 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-size: 1.1em;
+	color:#003459;
+	font-weight: bold;
+}
+
+.sectionContent h3 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	font-size: .9em;
+	margin-bottom: -2px;
+}
+
+.sectionContent h4 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	font-size: .8em;
+	margin-bottom: -2px;
+}
+
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
 #headshot {
 	width: 12.5%;
 	float: left;
 	margin-right: 30px;
+}
+
+#headshot {
+	border:none;
 }
 
 #headshot img {
@@ -108,6 +160,7 @@ section:last-child {
 
 #contactDetails {
 	float: right;
+	font-size: .9em;
 }
 
 #contactDetails ul li a:hover { 
@@ -127,3 +180,4 @@ section:last-child {
 #name {
 	float: left;
 }
+
