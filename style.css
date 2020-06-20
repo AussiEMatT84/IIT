@@ -121,7 +121,9 @@ section:last-child {
 
 .keySkills2 {
 	list-style: square;
+	list-style-position: inside;
 	color: #003459;
+	font-size: .8em;
 }
 
 .sectionContent h2 {
