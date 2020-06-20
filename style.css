@@ -20,6 +20,15 @@ p {
 	color: #F1F0EA;
 }
 
+a {
+	color: #0B132B; 
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FF6B6B;
+}
+
 #profile {
 	width: 90%;
 	max-width: 900px;
