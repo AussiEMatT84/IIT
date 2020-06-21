@@ -124,6 +124,13 @@ section:last-child {
 	list-style-position: inside;
 	color: #003459;
 	font-size: .8em;
+	margin-top: -20px;
+}
+.keySkills3 {
+	list-style: square;
+	list-style-position: inside;
+	color: #003459;
+	font-size: .8em;
 }
 
 .sectionContent h2 {
